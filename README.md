@@ -79,8 +79,7 @@ steps;
 4) copy the example.
 5) Paste the copied code in your GitBash and press enter, wait for a bird signature and enter yes, then press enter.
 
-![](Terminal-1.png)
-![A screenshot of the git bash terminal](https://github.com/user-attachments/assets/124b90e3-89b6-4c61-a9a3-41edd525001f)
+![A screenshot of the git bash terminal](https://github.com/user-attachments/assets/e7549392-41ad-44d5-81c0-df7324bf15b8)
 
 
 6) Run the first command and press enter, then the second command and press enter, then run the two last command together. The Apache should have installed successfully.
