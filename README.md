@@ -34,7 +34,7 @@ and clicked on security group.
 4) Then under the inbound rule setting, i allowed the SSh(IPv4) and HTTP(IPv4).
 5) i then checked if my data was correct and created the security group.
 
-![A screenshot of a security group that was successfuly created](security group.png)
+![A screenshot of a security group that was successfuly created](Security%20group.png)
 
 
 
