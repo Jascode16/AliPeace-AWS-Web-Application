@@ -1,53 +1,52 @@
 # AliPeace-AWS-Web-Application
  Learning how to deploy a web application with AWS
 ### Table of contents
-    [AliPeace-AWS-Web-Application](#alipeace-aws-web-application)
-        [Table of contents](#table-of-contents)
-             [1) Steps on how to launch an EC2 instance](#1-steps-on-how-to-launch-an-ec2-instance)
-                [1.1 Creation of Security group](#11-creation-of-security-group) 
-                [1.2 Creation of key pair](#12-creation-of-keypair)
-                [1.3 Launching of an EC2 instance](#13-launching-of-an-ec2-instance)
-                [1.4 Installation of the Apache app](#14-installation-of-the-apache-app) 
-                [1.5 Verifying the Public IP Address to check if it is working]                 (#15-verifying-the-public-ip-address-tocheck-if-it-is-working)
-            [2) List of all the AWS Services used and thier purpose](#2-list-of-all-the-aws-services-used-and-thier-purpose)
 
+   [AliPeace-AWS-Web-Application](#alipeace-aws-web-application)  
+      [Table of Contents](#table-of-contents)  
+         [Overview](#overview)
+ 1. [Steps on how to launch an EC2 instance](#1-steps-on-how-to-launch-an-ec2-instance)  
+    1.1 [Creation of Security Group](#11-creation-of-security-group)  
+    1.2 [Creation of Key Pair](#12-creation-of-key-pair)  
+    1.3 [Launching of an EC2 Instance](#13-launching-of-an-ec2-instance)  
+    1.4 [Installation of the Apache App](#14-installation-of-the-apache-app)  
+    1.5 [Verifying the Public IP Address to check if it is working](#15-verifying-the-public-ip-address-to-check-if-it-is-working)
+ 2. [List of all the AWS Services used and thier purpose](#2-list-of-all-the-aws-services-used-and-thier-purpose)
 ## Overview
 
-This repository is the presentation of my project on how to launch 
+This repository is a presentation of my project on how to launch 
 an Ec2 instance, the steps i followed in launching the instance and 
 the purpose of each AWS services used.
 
 ## 1) Steps on how to launch an EC2 instance
 
-#### 1.1 Creation of Security group
+### 1.1 Creation of Security group
 
 Before the Creation of the Security group, i first changed the region
 to ireland as specified in the instruction. (Note that before the Creation
 of the Security group, you need to create the following; 1) Vpc, 2) subnets
-3) An internet Gateway and 4) Network Access Control list. But due to the $$
-that the limit for vpc creation was met, i couldn't create a vpc therefore allowing 
-me to use the default one created by our tutor). 
+3) An internet Gateway and 4) Network Access Control list. But due to the fact that the limit of vpc creation was met, i couldn't create a vpc therefore allowing 
+me to use the default one created by our tutor.)
 
 steps;
-1) I searched for EC2 instance and click on it, and then i searched for the network$ security seeting 
+1) I searched for EC2 instance and clicked on it, and after that i searched for the network and security setting 
 and clicked on security group.
 2)  I then named my security group (alipeace_lita), i added a description to allow SSH and HTTP traffic.
 3) I added the VPC created by our tutor.
-4) Then under the inbound rule setting, i allowed the SSh(IPv4) and HTTP(IPv4).
-5) i then checked if my data was correct and created the security group.
+4) Then under the inbound rule setting, i allowed the SSH(IPv4) and HTTP(IPv4).
+5) I then checked if my data was correct and created the security group.
 
-![A screenshot of a security group that was successfuly created](Security%20group.png)
+![A screenshot of THE security group that was successfuly created](Security%20group.png)
 
 ### 1.2 Creation of KeyPair
 steps;
 1) Still under the EC2 instance network and security  setting,click on keyPair
 2) click on create Key pair
-3) Name your key pair, select the key pair type(RSA), and leave the privare key file format as (.ppk)
+3) Name your key pair, select the key pair type(RSA), and leave the privaTe key file format as (.ppk)
 4) click on create Key pair
 5) you'll be prompted to download the keypair, so download it in a directory you remember.
 
 Note : You can only download this key pair once.
-Remember to take a screenshot of the key apir
 
 ### 1.3 Launching of an EC2 instance
 steps;
@@ -57,10 +56,10 @@ steps;
 
 ![A screenshot the selection of the OS and instance type](Linux.png)
 
-4) You configure the instance type with a public subnet and assign it with the security group i created.
-5) I then assigned th key pair with the key pair i created.
+4) Configure the instance type with a public subnet and assign it with the security group that was created.
+5) After that you then assign the EC2 with the key pair that was created.
 6) Then go to the network settings and click on the edit button.
-7) Click on the VPC and select the public subnet created by our tutor, then enable the auto assign public ip and select the security group earlier created
+7) Click on the VPC and select the public subnet that was created by our tutor, then enable the auto assign public ip and select the security group that was earlier created
 
 ![A screenshot the selection of the VPC, Public subnet, Security group](Network.png)
 
@@ -96,7 +95,7 @@ steps;
 ## 2) List of all the AWS Services used and thier purpose
 The table below displays the list of Services i used and the purpose.
 | S/N | List of AWS services Used  | Purpose |
-| .... | .... | .... |  
+|----|----|-----|  
 | 1 | VPC | It provides an isolated section of AWS cloud where you can run and manage your resources, like  instances, servers and databases. |
 | 2 | Subnets | It is used to partition a larger network into smaller manageable segments. |
 | 3 |  Internet Gateway | It is to enable resources in a public subnet to communicate with the internet |
