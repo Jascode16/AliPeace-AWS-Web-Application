@@ -80,6 +80,7 @@ steps;
 5) Paste the copied code in your GitBash and press enter, wait for a bird signature and enter yes, then press enter.
 
 ![A screenshot of the git bash terminal](Terminal-1.png)
+
 6) Run the first command and press enter, then the second command and press enter, then run the two last command together. The Apache should have installed successfully.
 
 ![A screenshot of the Code to run](Code.png)
@@ -90,7 +91,7 @@ steps;
 2) Copy the Public Ip address and paste in your browser (Prefably chrome).
 
 (Note: This is my public Ip Address "54.73.53.55" )
-![A picture of my final result](Project.png)
+![A picture of my final result]()
 
 ## 2) List of all the AWS Services used and thier purpose
 The table below displays the list of Services i used and the purpose.
