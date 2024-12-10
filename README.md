@@ -74,7 +74,7 @@ steps;
 2) Copy the command on the third line to check if your key Pair is private
 3) Open your GitBash in the directory you downloaded your Key Pair and Paste the command and press enter. (There will be no output)
 
-![A screenshot of the git bash](/Bash.png)
+![A screenshot of the git bash](Bash.png)
 
 4) copy the example.
 5) Paste the copied code in your GitBash and press enter, wait for a bird signature and enter yes, then press enter.
