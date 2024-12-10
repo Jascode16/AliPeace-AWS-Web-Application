@@ -83,7 +83,7 @@ steps;
 
 6) Run the first command and press enter, then the second command and press enter, then run the two last command together. The Apache should have installed successfully.
 
-![A screenshot of the Code to run](Code.png)
+![A screenshot of the code](https://github.com/user-attachments/assets/02481e2f-4be1-4870-bed2-39167e4d975f)
 
 ### 1.5 Verifying the Public IP Address tocheck if it is working
 steps;
