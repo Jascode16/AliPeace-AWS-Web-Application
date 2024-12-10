@@ -26,13 +26,15 @@ of the Security group, you need to create the following; 1) Vpc, 2) subnets
 that the limit for vpc creation was met, i couldn't create a vpc therefore allowing 
 me to use the default one created by our tutor). 
 
-steps
+steps;
 1) I searched for EC2 instance and click on it, and then i searched for the network$ security seeting 
 and clicked on security group.
 2)  I then named my security group (alipeace_lita), i added a description to allow SSH and HTTP traffic.
 3) I added the VPC created by our tutor.
 4) Then under the inbound rule setting, i allowed the SSh(IPv4) and HTTP(IPv4).
 5) i then checked if my data was correct and created the security group.
+
+![A screenshot of a security group that was successfuly created]{security group.png}
 
 
 
