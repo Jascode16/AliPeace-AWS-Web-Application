@@ -36,7 +36,7 @@ and clicked on security group.
 4) Then under the inbound rule setting, i allowed the SSH(IPv4) and HTTP(IPv4).
 5) I then checked if my data was correct and created the security group.
 
-![A screenshot of THE security group that was successfuly created](Security%20group.png)
+![A screenshot of a security group that was successfuly created](https://github.com/user-attachments/assets/e2ceef77-28bc-4ccf-99f3-852f8674677c)
 
 ### 1.2 Creation of KeyPair
 steps;
@@ -54,19 +54,19 @@ steps;
 2) Name your instance
 3) Select the OS and the instance type you want(amazon Linux 2 as the OS and t2.micro)
 
-![A screenshot the selection of the OS and instance type](Linux.png)
+![A screenshot the selection of the OS and instance type](https://github.com/user-attachments/assets/658bb0af-3413-4b8e-839e-85172980fd56)
 
 4) Configure the instance type with a public subnet and assign it with the security group that was created.
 5) After that you then assign the EC2 with the key pair that was created.
 6) Then go to the network settings and click on the edit button.
 7) Click on the VPC and select the public subnet that was created by our tutor, then enable the auto assign public ip and select the security group that was earlier created
 
-![A screenshot the selection of the VPC, Public subnet, Security group](Network.png)
+![A screenshot the selection of the VPC, Public subnet, Security group](https://github.com/user-attachments/assets/9179042c-e5ec-4650-9451-880d09cdbc7a)
 
 8) Review your configuration summary and click Launch instance
 9) Verify the instance is running by checking the instance state.
 
-![A screenshot of a successfully launced EC2](EC2.png)
+![A screenshot of a successfully launced EC2](https://github.com/user-attachments/assets/731f18ec-25c5-48f3-800a-2851ebd56d17)
 
 ### 1.4 Installation of the Apache app
 steps;
@@ -91,7 +91,9 @@ steps;
 2) Copy the Public Ip address and paste in your browser (Prefably chrome).
 
 (Note: This is my public Ip Address "54.73.53.55" )
-![A picture of my final result]()
+
+![A picture of my final result](https://github.com/user-attachments/assets/958bd7bc-e53e-4689-8bcd-0488d4d6ee1d)
+
 
 ## 2) List of all the AWS Services used and thier purpose
 The table below displays the list of Services i used and the purpose.
